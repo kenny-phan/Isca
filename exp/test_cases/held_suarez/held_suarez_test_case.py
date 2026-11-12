@@ -2,12 +2,13 @@ import numpy as np
 
 from isca import DryCodeBase, DiagTable, Experiment, Namelist, GFDL_BASE
 
-NCORES = 16
+NCORES = 64
 RESOLUTION = 'T42', 25  # T42 horizontal resolution, 25 levels in pressure
 
 # a CodeBase can be a directory on the computer,
 # useful for iterative development
 cb = DryCodeBase.from_directory(GFDL_BASE)
+cb.compile_flags.extend(['-fallow-argument-mismatch', '-fallow-invalid-boz'])
 
 # or it can point to a specific git repo and commit id.
 # This method should ensure future, independent, reproducibility of results.
@@ -37,6 +38,9 @@ diag.add_field('dynamics', 'vcomp', time_avg=True)
 diag.add_field('dynamics', 'temp', time_avg=True)
 diag.add_field('dynamics', 'vor', time_avg=True)
 diag.add_field('dynamics', 'div', time_avg=True)
+
+# diag.add_field('two-stream', 'olr', time_avg=True)
+
 
 exp.diag_table = diag
 

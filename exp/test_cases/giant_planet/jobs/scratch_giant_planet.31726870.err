@@ -1,0 +1,295 @@
+2026-11-02 15:52:43,923 - isca - WARNING - Environment variable GFDL_SOC not set, but this is only required if using SocratesCodebase. Setting to None
+2026-11-02 15:52:44,121 - isca - INFO - SOCRATES compilation disabled.
+2026-11-02 15:52:44,225 - isca - INFO - Emptied run directory '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run'
+2026-11-02 15:52:44,250 - isca - INFO - Writing path_names to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/codebase/_home_ktp9_programs_isca/build/isca/path_names'
+2026-11-02 15:52:44,273 - isca - INFO - Running compiler
+2026-11-02 15:52:44,289 - isca - INFO - Loading basic gfortran environment
+2026-11-02 15:52:47,729 - isca - INFO - Using 8 parallel make job(s) (set ISCA_MAKE_JOBS to override)
+2026-11-02 15:52:47,732 - isca - INFO - /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/codebase/_home_ktp9_programs_isca/build/isca/path_names
+2026-11-02 15:52:49,162 - isca - INFO - .......................................................................................................................................................................................................... Makefile is ready.
+2026-11-02 15:52:49,324 - isca - INFO - make: Nothing to be done for 'all'.
+2026-11-02 15:52:49,387 - isca - INFO - make: 'isca.x' is up to date.
+2026-11-02 15:52:49,388 - isca - INFO - Compilation complete.
+2026-11-02 15:52:49,403 - isca - INFO - Emptied run directory '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run'
+2026-11-02 15:52:49,821 - isca - INFO - Writing namelist to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/input.nml'
+2026-11-02 15:52:49,850 - isca - INFO - Writing field_table to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/field_table'
+2026-11-02 15:52:49,873 - isca - INFO - Writing diag_table to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/diag_table'
+2026-11-02 15:52:49,877 - isca - INFO - Running without restart file
+2026-11-02 15:52:49,885 - isca - INFO - Beginning run 1
+2026-11-02 15:52:49,889 - isca - INFO - process running as 853597
+2026-11-02 15:52:49,903 - isca - DEBUG - Loading basic gfortran environment
+2026-11-02 15:52:54,574 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2026-11-02 15:52:54,576 - isca - DEBUG - &MPP_IO_NML
+2026-11-02 15:52:54,576 - isca - DEBUG - HEADER_BUFFER_VAL=16384      ,
+2026-11-02 15:52:54,576 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE=T,
+2026-11-02 15:52:54,576 - isca - DEBUG - IO_CLOCKS_ON=F,
+2026-11-02 15:52:54,576 - isca - DEBUG - SHUFFLE=0          ,
+2026-11-02 15:52:54,576 - isca - DEBUG - DEFLATE_LEVEL=-1         ,
+2026-11-02 15:52:54,576 - isca - DEBUG - /
+2026-11-02 15:52:54,577 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2026-11-02 15:52:54,579 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to  6200000.
+2026-11-02 15:52:54,600 - isca - DEBUG - 
+2026-11-02 15:52:54,600 - isca - DEBUG - FATAL from PE    2: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,600 - isca - DEBUG - 
+2026-11-02 15:52:54,600 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE    1: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE    7: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE    3: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   11: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE    5: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   14: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE    4: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE    6: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   34: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   15: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   33: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   13: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   35: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   51: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   23: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   26: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   18: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   19: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE    8: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   25: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   36: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   12: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   37: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   10: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   32: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   22: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE    9: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   24: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   54: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   29: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,601 - isca - DEBUG - FATAL from PE   20: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,601 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   21: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   27: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   16: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   31: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   30: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   53: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   50: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   49: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   48: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   55: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   17: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   58: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   42: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   41: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   38: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   40: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   60: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   56: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   39: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   47: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   52: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   28: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   61: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   57: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   43: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   44: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   45: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   62: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   63: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,602 - isca - DEBUG - FATAL from PE   46: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,602 - isca - DEBUG - 
+2026-11-02 15:52:54,603 - isca - DEBUG - 
+2026-11-02 15:52:54,603 - isca - DEBUG - FATAL from PE   59: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:54,603 - isca - DEBUG - 
+2026-11-02 15:52:54,603 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2026-11-02 15:52:54,604 - isca - DEBUG - --------------------------------------------------------------------------
+2026-11-02 15:52:54,604 - isca - DEBUG - MPI_ABORT was invoked on rank 51 in communicator MPI_COMM_WORLD
+2026-11-02 15:52:54,604 - isca - DEBUG - Proc: [[48595,1],51]
+2026-11-02 15:52:54,604 - isca - DEBUG - Errorcode: 1
+2026-11-02 15:52:54,604 - isca - DEBUG - 
+2026-11-02 15:52:54,604 - isca - DEBUG - NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+2026-11-02 15:52:54,604 - isca - DEBUG - You may or may not see output from other processes, depending on
+2026-11-02 15:52:54,604 - isca - DEBUG - exactly when Open MPI kills them.
+2026-11-02 15:52:54,604 - isca - DEBUG - --------------------------------------------------------------------------
+2026-11-02 15:52:55,106 - isca - DEBUG -  
+2026-11-02 15:52:55,106 - isca - DEBUG - FATAL from PE    0: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:55,106 - isca - DEBUG - 
+2026-11-02 15:52:55,106 - isca - DEBUG - 
+2026-11-02 15:52:55,106 - isca - DEBUG - FATAL from PE    0: check_dynamics_nml: number of longitude points is too small for number of fourier waves. lon_max=     512  num_fourier=     255
+2026-11-02 15:52:55,106 - isca - DEBUG - 
+2026-11-02 15:52:55,119 - isca - DEBUG - --------------------------------------------------------------------------
+2026-11-02 15:52:55,119 - isca - DEBUG - prterun has exited due to process rank 51 with PID 0 on node a1114u32n01 calling
+2026-11-02 15:52:55,120 - isca - DEBUG - "abort". This may have caused other processes in the application to be
+2026-11-02 15:52:55,120 - isca - DEBUG - terminated by signals sent by prterun (as reported here).
+2026-11-02 15:52:55,120 - isca - DEBUG - --------------------------------------------------------------------------
+Exception in thread background thread for pid 853597:
+Traceback (most recent call last):
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 1641, in wrap
+    fn(*rgs, **kwargs)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 2569, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 2269, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2026-11-02 15:52:55,195 - isca - ERROR - Run 1 failed. See log for details.
+2026-11-02 15:52:55,195 - isca - ERROR - Error: ErrorReturnCode_1('\n\n  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh\n\n  STDOUT:\n\n\n  STDERR:\n')
+Traceback (most recent call last):
+  File "/home/ktp9/programs/isca/src/extra/python/isca/experiment.py", line 284, in run
+    proc.wait()
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 845, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ktp9/programs/isca/exp/test_cases/giant_planet/scratch_giant_planet_test_case.py", line 225, in <module>
+    exp.run(1, use_restart=False, overwrite_data=True, num_cores=NCORES)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/experiment.py", line 298, in run
+    raise FailedRunError()
+isca.experiment.FailedRunError

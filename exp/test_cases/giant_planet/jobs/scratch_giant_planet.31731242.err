@@ -1,0 +1,108 @@
+2026-11-02 16:17:58,277 - isca - WARNING - Environment variable GFDL_SOC not set, but this is only required if using SocratesCodebase. Setting to None
+2026-11-02 16:17:58,789 - isca - INFO - SOCRATES compilation disabled.
+2026-11-02 16:17:58,914 - isca - INFO - Emptied run directory '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run'
+2026-11-02 16:17:58,932 - isca - INFO - Writing path_names to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/codebase/_home_ktp9_programs_isca/build/isca/path_names'
+2026-11-02 16:17:58,952 - isca - INFO - Running compiler
+2026-11-02 16:17:58,974 - isca - INFO - Loading basic gfortran environment
+2026-11-02 16:18:02,138 - isca - INFO - Using 8 parallel make job(s) (set ISCA_MAKE_JOBS to override)
+2026-11-02 16:18:02,139 - isca - INFO - /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/codebase/_home_ktp9_programs_isca/build/isca/path_names
+2026-11-02 16:18:04,049 - isca - INFO - .......................................................................................................................................................................................................... Makefile is ready.
+2026-11-02 16:18:04,229 - isca - INFO - make: Nothing to be done for 'all'.
+2026-11-02 16:18:04,291 - isca - INFO - make: 'isca.x' is up to date.
+2026-11-02 16:18:04,292 - isca - INFO - Compilation complete.
+2026-11-02 16:18:04,308 - isca - INFO - Emptied run directory '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run'
+2026-11-02 16:18:04,906 - isca - INFO - Writing namelist to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/input.nml'
+2026-11-02 16:18:04,908 - isca - INFO - Writing field_table to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/field_table'
+2026-11-02 16:18:04,920 - isca - INFO - Writing diag_table to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/diag_table'
+2026-11-02 16:18:04,922 - isca - INFO - Running without restart file
+2026-11-02 16:18:04,926 - isca - INFO - Beginning run 1
+2026-11-02 16:18:04,931 - isca - INFO - process running as 2826852
+2026-11-02 16:18:04,942 - isca - DEBUG - Loading basic gfortran environment
+2026-11-02 16:18:09,622 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2026-11-02 16:18:09,623 - isca - DEBUG - &MPP_IO_NML
+2026-11-02 16:18:09,623 - isca - DEBUG - HEADER_BUFFER_VAL=16384      ,
+2026-11-02 16:18:09,623 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE=T,
+2026-11-02 16:18:09,623 - isca - DEBUG - IO_CLOCKS_ON=F,
+2026-11-02 16:18:09,623 - isca - DEBUG - SHUFFLE=0          ,
+2026-11-02 16:18:09,623 - isca - DEBUG - DEFLATE_LEVEL=-1         ,
+2026-11-02 16:18:09,623 - isca - DEBUG - /
+2026-11-02 16:18:09,625 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2026-11-02 16:18:09,627 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to  6200000.
+2026-11-02 16:18:09,647 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2026-11-02 16:18:09,656 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2026-11-02 16:18:09,656 - isca - DEBUG - X-AXIS = 1024
+2026-11-02 16:18:09,656 - isca - DEBUG - Y-AXIS =    5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5
+2026-11-02 16:18:09,656 - isca - DEBUG - 5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5
+2026-11-02 16:18:09,656 - isca - DEBUG - 5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5
+2026-11-02 16:18:09,790 - isca - DEBUG - mean surface pressure=3000.0000 mb
+2026-11-02 16:18:16,705 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using dry convection scheme.
+2026-11-02 16:18:16,710 - isca - DEBUG - 
+2026-11-02 16:18:16,710 - isca - DEBUG - 
+2026-11-02 16:18:16,710 - isca - DEBUG - Rayleigh Drag in boundary layer.
+2026-11-02 16:18:16,710 - isca - DEBUG - Extent of frictional layer: sigma_b =     0.85
+2026-11-02 16:18:16,710 - isca - DEBUG - Frictional timescale in days:     10.00
+2026-11-02 16:18:16,710 - isca - DEBUG - 
+2026-11-02 16:18:16,710 - isca - DEBUG - 
+2026-11-02 16:18:16,710 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Because gp_surface=.True., setting albedo=0.0
+2026-11-02 16:18:16,710 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Note that if grey radiation scheme != Schneider is used, model will seg-fault b/c gp_surface does not define a t_surf, which is required by most grey schemes.
+2026-11-02 16:18:16,937 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Schneider & Liu (2009) radiation scheme for GIANT PLANETS.
+2026-11-02 16:18:16,945 - isca - DEBUG - --------------------------------------------------------------------------
+2026-11-02 16:18:16,945 - isca - DEBUG - prterun noticed that process rank 15 with PID 2827039 on node a1114u28n01 exited on
+2026-11-02 16:18:16,945 - isca - DEBUG - signal 9 (Killed).
+2026-11-02 16:18:16,945 - isca - DEBUG - --------------------------------------------------------------------------
+Exception in thread background thread for pid 2826852:
+Traceback (most recent call last):
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 1641, in wrap
+    fn(*rgs, **kwargs)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 2569, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 2269, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_137: 
+
+  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2026-11-02 16:18:17,011 - isca - ERROR - Run 1 failed. See log for details.
+2026-11-02 16:18:17,011 - isca - ERROR - Error: ErrorReturnCode_137('\n\n  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh\n\n  STDOUT:\n\n\n  STDERR:\n')
+Traceback (most recent call last):
+  File "/home/ktp9/programs/isca/src/extra/python/isca/experiment.py", line 284, in run
+    proc.wait()
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 845, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_137: 
+
+  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ktp9/programs/isca/exp/test_cases/giant_planet/scratch_giant_planet_test_case.py", line 225, in <module>
+    exp.run(1, use_restart=False, overwrite_data=True, num_cores=NCORES)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/experiment.py", line 298, in run
+    raise FailedRunError()
+isca.experiment.FailedRunError
+[2026-11-02T16:18:17.244] error: Detected 5 oom_kill events in StepId=31731242.batch. Some of the step tasks have been OOM Killed.

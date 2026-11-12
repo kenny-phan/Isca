@@ -1,7 +1,23 @@
 echo Loading basic gfortran environment
 
 # this defaults to ia64, but we will use gfortran, not ifort
-export GFDL_MKMF_TEMPLATE=gfort
+#export GFDL_MKMF_TEMPLATE=gfort
 
 export F90=mpifort
 export CC=mpicc
+export GFDL_MKMF_TEMPLATE=conda-gfortran
+
+# Point to your conda environment
+#export NETCDF_HOME=${CONDA_PREFIX}
+module load netCDF-Fortran/4.6.1-gompi-2024a
+export NETCDF_HOME=/apps/software/2024a/software/netCDF-Fortran/4.6.1-gompi-2024a
+export NETCDF_FORTRAN_HOME=${NETCDF_HOME}
+export CPPFLAGS="-I${NETCDF_HOME}/include"
+export LDFLAGS="-L${NETCDF_HOME}/lib"
+export CPATH="${NETCDF_HOME}/include:${CPATH}"
+#export CPPFLAGS="-I${CONDA_PREFIX}/include"
+#export CFLAGS="-D__IFC ${CPPFLAGS}"
+#export LDFLAGS="-L${CONDA_PREFIX}/lib"
+
+# Ensure conda libraries are found first
+#export LD_LIBRARY_PATH="${CONDA_PREFIX}/lib:${LD_LIBRARY_PATH}"

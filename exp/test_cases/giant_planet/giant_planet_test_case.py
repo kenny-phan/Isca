@@ -1,10 +1,11 @@
+#default giant planet case
 import os
 
 import numpy as np
 
 from isca import IscaCodeBase, DiagTable, Experiment, Namelist, GFDL_BASE
 
-NCORES = 8
+NCORES = 64
 
 # a CodeBase can be a directory on the computer,
 # useful for iterative development

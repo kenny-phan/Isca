@@ -1,0 +1,167 @@
+2026-11-02 19:27:13,726 - isca - WARNING - Environment variable GFDL_SOC not set, but this is only required if using SocratesCodebase. Setting to None
+2026-11-02 19:27:14,081 - isca - INFO - SOCRATES compilation disabled.
+2026-11-02 19:27:14,163 - isca - INFO - Emptied run directory '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run'
+2026-11-02 19:27:14,175 - isca - INFO - Writing path_names to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/codebase/_home_ktp9_programs_isca/build/isca/path_names'
+2026-11-02 19:27:14,215 - isca - INFO - Running compiler
+2026-11-02 19:27:14,236 - isca - INFO - Loading basic gfortran environment
+2026-11-02 19:27:16,974 - isca - INFO - Using 8 parallel make job(s) (set ISCA_MAKE_JOBS to override)
+2026-11-02 19:27:17,002 - isca - INFO - /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/codebase/_home_ktp9_programs_isca/build/isca/path_names
+2026-11-02 19:27:18,262 - isca - INFO - .......................................................................................................................................................................................................... Makefile is ready.
+2026-11-02 19:27:18,431 - isca - INFO - make: Nothing to be done for 'all'.
+2026-11-02 19:27:18,496 - isca - INFO - make: 'isca.x' is up to date.
+2026-11-02 19:27:18,496 - isca - INFO - Compilation complete.
+2026-11-02 19:27:18,511 - isca - INFO - Emptied run directory '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run'
+2026-11-02 19:27:18,997 - isca - INFO - Writing namelist to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/input.nml'
+2026-11-02 19:27:19,004 - isca - INFO - Writing field_table to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/field_table'
+2026-11-02 19:27:19,014 - isca - INFO - Writing diag_table to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/diag_table'
+2026-11-02 19:27:19,019 - isca - INFO - Running without restart file
+2026-11-02 19:27:19,028 - isca - INFO - Beginning run 1
+2026-11-02 19:27:19,032 - isca - INFO - process running as 2587270
+2026-11-02 19:27:19,044 - isca - DEBUG - Loading basic gfortran environment
+2026-11-02 19:27:22,626 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2026-11-02 19:27:22,629 - isca - DEBUG - &MPP_IO_NML
+2026-11-02 19:27:22,629 - isca - DEBUG - HEADER_BUFFER_VAL=16384      ,
+2026-11-02 19:27:22,629 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE=T,
+2026-11-02 19:27:22,629 - isca - DEBUG - IO_CLOCKS_ON=F,
+2026-11-02 19:27:22,629 - isca - DEBUG - SHUFFLE=0          ,
+2026-11-02 19:27:22,629 - isca - DEBUG - DEFLATE_LEVEL=-1         ,
+2026-11-02 19:27:22,629 - isca - DEBUG - /
+2026-11-02 19:27:22,630 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2026-11-02 19:27:22,631 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to  6200000.
+2026-11-02 19:27:22,649 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2026-11-02 19:27:22,657 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2026-11-02 19:27:22,657 - isca - DEBUG - X-AXIS = 1024
+2026-11-02 19:27:22,657 - isca - DEBUG - Y-AXIS =    5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5
+2026-11-02 19:27:22,657 - isca - DEBUG - 5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5
+2026-11-02 19:27:22,657 - isca - DEBUG - 5   5   5   5   5   5   5   5   5   5   5   5   5   5   5   5
+2026-11-02 19:27:22,760 - isca - DEBUG - mean surface pressure=3000.0000 mb
+2026-11-02 19:27:22,798 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using dry convection scheme.
+2026-11-02 19:27:22,801 - isca - DEBUG - 
+2026-11-02 19:27:22,801 - isca - DEBUG - 
+2026-11-02 19:27:22,801 - isca - DEBUG - Rayleigh Drag in boundary layer.
+2026-11-02 19:27:22,801 - isca - DEBUG - Extent of frictional layer: sigma_b =     0.85
+2026-11-02 19:27:22,801 - isca - DEBUG - Frictional timescale in days:     10.00
+2026-11-02 19:27:22,801 - isca - DEBUG - 
+2026-11-02 19:27:22,801 - isca - DEBUG - 
+2026-11-02 19:27:22,805 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Because gp_surface=.True., setting albedo=0.0
+2026-11-02 19:27:22,805 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Note that if grey radiation scheme != Schneider is used, model will seg-fault b/c gp_surface does not define a t_surf, which is required by most grey schemes.
+2026-11-02 19:27:22,813 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Schneider & Liu (2009) radiation scheme for GIANT PLANETS.
+2026-11-02 19:27:40,755 - isca - DEBUG - 
+2026-11-02 19:27:40,756 - isca - WARNING - WARNING from PE   29: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -3.76328E+001, Max:   4.09376E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:40,756 - isca - DEBUG - 
+2026-11-02 19:27:41,075 - isca - DEBUG - 
+2026-11-02 19:27:41,075 - isca - WARNING - WARNING from PE   29: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -4.46058E+001, Max:   4.06032E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:41,075 - isca - DEBUG - 
+2026-11-02 19:27:43,478 - isca - DEBUG - 
+2026-11-02 19:27:43,478 - isca - WARNING - WARNING from PE   31: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -2.77275E+002, Max:   4.69773E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:43,478 - isca - DEBUG - 
+2026-11-02 19:27:43,638 - isca - DEBUG - 
+2026-11-02 19:27:43,638 - isca - WARNING - WARNING from PE   31: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -3.89735E+002, Max:   4.97927E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:43,638 - isca - DEBUG - 
+2026-11-02 19:27:43,798 - isca - DEBUG - 
+2026-11-02 19:27:43,798 - isca - WARNING - WARNING from PE   31: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -4.11557E+002, Max:   6.42316E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:43,798 - isca - DEBUG - 
+2026-11-02 19:27:43,960 - isca - DEBUG - 
+2026-11-02 19:27:43,960 - isca - WARNING - WARNING from PE   31: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -5.60544E+002, Max:   6.79554E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:43,960 - isca - DEBUG - 
+2026-11-02 19:27:44,119 - isca - DEBUG - 
+2026-11-02 19:27:44,119 - isca - WARNING - WARNING from PE   34: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -1.93177E+002, Max:   4.10292E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:44,119 - isca - DEBUG - 
+2026-11-02 19:27:44,120 - isca - DEBUG - 
+2026-11-02 19:27:44,121 - isca - WARNING - WARNING from PE   31: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -5.88182E+002, Max:   8.79812E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:44,121 - isca - DEBUG - 
+2026-11-02 19:27:44,281 - isca - DEBUG - 
+2026-11-02 19:27:44,281 - isca - WARNING - WARNING from PE   31: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -7.96282E+002, Max:   9.30281E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:44,281 - isca - DEBUG - 
+2026-11-02 19:27:44,440 - isca - DEBUG - 
+2026-11-02 19:27:44,440 - isca - WARNING - WARNING from PE   34: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -2.97813E+002, Max:   5.34058E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:44,440 - isca - DEBUG - 
+2026-11-02 19:27:44,441 - isca - DEBUG - 
+2026-11-02 19:27:44,441 - isca - WARNING - WARNING from PE   31: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -8.35233E+002, Max:   1.23639E+003) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:44,441 - isca - DEBUG - 
+2026-11-02 19:27:44,600 - isca - DEBUG - 
+2026-11-02 19:27:44,600 - isca - WARNING - WARNING from PE   34: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -4.39611E+002, Max:   5.00654E+002) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:44,600 - isca - DEBUG - 
+2026-11-02 19:27:44,601 - isca - DEBUG - 
+2026-11-02 19:27:44,601 - isca - WARNING - WARNING from PE   31: diag_manager_mod::send_data_3d: A value for dynamics in field vcomp (Min:  -1.15987E+003, Max:   1.31222E+003) is outside the range [ -4.00000E+002,  4.00000E+002].
+2026-11-02 19:27:44,601 - isca - DEBUG - 
+2026-11-02 19:27:44,722 - isca - DEBUG - 
+2026-11-02 19:27:44,722 - isca - DEBUG - Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+2026-11-02 19:27:44,722 - isca - DEBUG - 
+2026-11-02 19:27:44,722 - isca - DEBUG - Backtrace for this error:
+2026-11-02 19:27:44,872 - isca - DEBUG - #0  0x14698476fbef in ???
+2026-11-02 19:27:44,873 - isca - DEBUG - #1  0x146984cc03d9 in get_float_string
+2026-11-02 19:27:44,873 - isca - DEBUG - at ../../../libgfortran/io/write_float.def:1249
+2026-11-02 19:27:44,873 - isca - DEBUG - #2  0x146984cc1d80 in write_float_0
+2026-11-02 19:27:44,873 - isca - DEBUG - at ../../../libgfortran/io/write.c:1634
+2026-11-02 19:27:44,873 - isca - DEBUG - #3  0x146984cb8603 in formatted_transfer_scalar_write
+2026-11-02 19:27:44,873 - isca - DEBUG - at ../../../libgfortran/io/transfer.c:2262
+2026-11-02 19:27:44,873 - isca - DEBUG - #4  0x146984cb89c5 in formatted_transfer
+2026-11-02 19:27:44,873 - isca - DEBUG - at ../../../libgfortran/io/transfer.c:2504
+2026-11-02 19:27:44,873 - isca - DEBUG - #5  0x9c88e8 in ???
+2026-11-02 19:27:44,873 - isca - DEBUG - #6  0xa6852c in ???
+2026-11-02 19:27:44,873 - isca - DEBUG - #7  0x9f7980 in ???
+2026-11-02 19:27:44,873 - isca - DEBUG - #8  0x404b3c in ???
+2026-11-02 19:27:44,873 - isca - DEBUG - #9  0x14698475a5cf in ???
+2026-11-02 19:27:44,873 - isca - DEBUG - #10  0x14698475a67f in ???
+2026-11-02 19:27:44,873 - isca - DEBUG - #11  0x404b74 in ???
+2026-11-02 19:27:44,873 - isca - DEBUG - #12  0xffffffffffffffff in ???
+2026-11-02 19:27:45,471 - isca - DEBUG - --------------------------------------------------------------------------
+2026-11-02 19:27:45,471 - isca - DEBUG - prterun noticed that process rank 31 with PID 2587792 on node a1114u18n01 exited on
+2026-11-02 19:27:45,471 - isca - DEBUG - signal 11 (Segmentation fault).
+2026-11-02 19:27:45,471 - isca - DEBUG - --------------------------------------------------------------------------
+Exception in thread background thread for pid 2587270:
+Traceback (most recent call last):
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 1641, in wrap
+    fn(*rgs, **kwargs)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 2569, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 2269, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_139: 
+
+  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2026-11-02 19:27:45,480 - isca - ERROR - Run 1 failed. See log for details.
+2026-11-02 19:27:45,480 - isca - ERROR - Error: ErrorReturnCode_139('\n\n  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh\n\n  STDOUT:\n\n\n  STDERR:\n')
+Traceback (most recent call last):
+  File "/home/ktp9/programs/isca/src/extra/python/isca/experiment.py", line 284, in run
+    proc.wait()
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 845, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_139: 
+
+  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ktp9/programs/isca/exp/test_cases/giant_planet/scratch_giant_planet_test_case.py", line 225, in <module>
+    exp.run(1, use_restart=False, overwrite_data=True, num_cores=NCORES)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/experiment.py", line 298, in run
+    raise FailedRunError()
+isca.experiment.FailedRunError

@@ -1,0 +1,6 @@
+Host: a1114u17n01.mghpcc.ycrc.yale.edu
+python: /home/ktp9/.conda/envs/isca/bin/python
+exe: /home/ktp9/.conda/envs/isca/bin/python
+numpy: 1.21.6
+netCDF4: 1.6.1
+Loading basic gfortran environment

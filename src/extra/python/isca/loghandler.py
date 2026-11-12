@@ -72,6 +72,6 @@ class SuppressNext(logging.Filter):
             return False
         return True
 
-
-suppress_stdout = SuppressNext()
-stdout.addFilter(suppress_stdout)
+# 11/11/26: keep log files?
+# suppress_stdout = SuppressNext()
+# stdout.addFilter(suppress_stdout)

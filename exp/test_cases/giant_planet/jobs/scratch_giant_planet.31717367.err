@@ -1,0 +1,301 @@
+2026-11-02 13:56:15,895 - isca - WARNING - Environment variable GFDL_SOC not set, but this is only required if using SocratesCodebase. Setting to None
+2026-11-02 13:56:16,546 - isca - INFO - SOCRATES compilation disabled.
+2026-11-02 13:56:17,207 - isca - INFO - Emptied run directory '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run'
+2026-11-02 13:56:17,229 - isca - INFO - Writing path_names to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/codebase/_home_ktp9_programs_isca/build/isca/path_names'
+2026-11-02 13:56:17,255 - isca - INFO - Running compiler
+2026-11-02 13:56:17,270 - isca - INFO - Loading basic gfortran environment
+2026-11-02 13:56:20,109 - isca - INFO - Using 8 parallel make job(s) (set ISCA_MAKE_JOBS to override)
+2026-11-02 13:56:20,114 - isca - INFO - /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/codebase/_home_ktp9_programs_isca/build/isca/path_names
+2026-11-02 13:56:25,567 - isca - INFO - .......................................................................................................................................................................................................... Makefile is ready.
+2026-11-02 13:56:25,847 - isca - INFO - make: Nothing to be done for 'all'.
+2026-11-02 13:56:25,914 - isca - INFO - make: 'isca.x' is up to date.
+2026-11-02 13:56:25,914 - isca - INFO - Compilation complete.
+2026-11-02 13:56:25,935 - isca - INFO - Emptied run directory '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run'
+2026-11-02 13:56:25,938 - isca - WARNING - Data for run 1 already exists and overwrite_data is True. Overwriting.
+2026-11-02 13:56:27,545 - isca - INFO - Writing namelist to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/input.nml'
+2026-11-02 13:56:27,548 - isca - INFO - Writing field_table to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/field_table'
+2026-11-02 13:56:27,559 - isca - INFO - Writing diag_table to '/home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/diag_table'
+2026-11-02 13:56:27,565 - isca - INFO - Running without restart file
+2026-11-02 13:56:27,569 - isca - INFO - Beginning run 1
+2026-11-02 13:56:27,572 - isca - INFO - process running as 1403911
+2026-11-02 13:56:27,584 - isca - DEBUG - Loading basic gfortran environment
+2026-11-02 13:56:31,330 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2026-11-02 13:56:31,333 - isca - DEBUG - &MPP_IO_NML
+2026-11-02 13:56:31,333 - isca - DEBUG - HEADER_BUFFER_VAL=16384      ,
+2026-11-02 13:56:31,333 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE=T,
+2026-11-02 13:56:31,333 - isca - DEBUG - IO_CLOCKS_ON=F,
+2026-11-02 13:56:31,333 - isca - DEBUG - SHUFFLE=0          ,
+2026-11-02 13:56:31,333 - isca - DEBUG - DEFLATE_LEVEL=-1         ,
+2026-11-02 13:56:31,333 - isca - DEBUG - /
+2026-11-02 13:56:31,335 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2026-11-02 13:56:31,338 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to  6200000.
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   27: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   21: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   57: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   54: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   52: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   14: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   12: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   60: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   38: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   32: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   15: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   10: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   43: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   45: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   26: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   17: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   36: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   35: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   34: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   59: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   53: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   58: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   28: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   33: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE    1: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   11: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   37: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   29: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - 
+2026-11-02 13:56:31,364 - isca - DEBUG - FATAL from PE   24: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   16: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   56: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   62: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   63: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   48: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   42: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   50: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   51: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   31: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   61: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   49: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   41: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   40: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   13: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE    6: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE    5: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE    2: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   23: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   22: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   39: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   25: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   47: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE    4: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE    3: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   30: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   20: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   55: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   44: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE    7: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   18: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE    8: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE   19: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - FATAL from PE    9: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,365 - isca - DEBUG - 
+2026-11-02 13:56:31,365 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2026-11-02 13:56:31,366 - isca - DEBUG - 
+2026-11-02 13:56:31,366 - isca - DEBUG - FATAL from PE   46: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,366 - isca - DEBUG - 
+2026-11-02 13:56:31,369 - isca - DEBUG - --------------------------------------------------------------------------
+2026-11-02 13:56:31,369 - isca - DEBUG - MPI_ABORT was invoked on rank 29 in communicator MPI_COMM_WORLD
+2026-11-02 13:56:31,369 - isca - DEBUG - Proc: [[46035,1],29]
+2026-11-02 13:56:31,369 - isca - DEBUG - Errorcode: 1
+2026-11-02 13:56:31,369 - isca - DEBUG - 
+2026-11-02 13:56:31,369 - isca - DEBUG - NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+2026-11-02 13:56:31,369 - isca - DEBUG - You may or may not see output from other processes, depending on
+2026-11-02 13:56:31,369 - isca - DEBUG - exactly when Open MPI kills them.
+2026-11-02 13:56:31,369 - isca - DEBUG - --------------------------------------------------------------------------
+2026-11-02 13:56:31,871 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2026-11-02 13:56:31,871 - isca - DEBUG - X-AXIS =  320
+2026-11-02 13:56:31,871 - isca - DEBUG - Y-AXIS =    3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   2   2   2   2   2   2   2   2
+2026-11-02 13:56:31,871 - isca - DEBUG - 2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2   2
+2026-11-02 13:56:31,871 - isca - DEBUG - 3   3   3   3   3   3   3   3   3   3   3   3   3   3   3   3
+2026-11-02 13:56:31,871 - isca - DEBUG - 
+2026-11-02 13:56:31,871 - isca - DEBUG - FATAL from PE    0: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,871 - isca - DEBUG - 
+2026-11-02 13:56:31,871 - isca - DEBUG -  
+2026-11-02 13:56:31,871 - isca - DEBUG - FATAL from PE    0: SPEC_MPP_INIT:Requires num_lat_rows/num_pes=int;num_pes=  64;num_lat_rows= 160
+2026-11-02 13:56:31,871 - isca - DEBUG - 
+2026-11-02 13:56:31,890 - isca - DEBUG - --------------------------------------------------------------------------
+2026-11-02 13:56:31,890 - isca - DEBUG - prterun has exited due to process rank 27 with PID 0 on node a1114u29n01 calling
+2026-11-02 13:56:31,890 - isca - DEBUG - "abort". This may have caused other processes in the application to be
+2026-11-02 13:56:31,890 - isca - DEBUG - terminated by signals sent by prterun (as reported here).
+2026-11-02 13:56:31,891 - isca - DEBUG - --------------------------------------------------------------------------
+Exception in thread background thread for pid 1403911:
+Traceback (most recent call last):
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 1641, in wrap
+    fn(*rgs, **kwargs)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 2569, in background_thread
+    handle_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 2269, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2026-11-02 13:56:31,976 - isca - ERROR - Run 1 failed. See log for details.
+2026-11-02 13:56:31,976 - isca - ERROR - Error: ErrorReturnCode_1('\n\n  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh\n\n  STDOUT:\n\n\n  STDERR:\n')
+Traceback (most recent call last):
+  File "/home/ktp9/programs/isca/src/extra/python/isca/experiment.py", line 284, in run
+    proc.wait()
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 845, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/home/ktp9/.conda/envs/isca/lib/python3.7/site-packages/sh.py", line 869, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /home/ktp9/scratch_pi_mpr49/ktp9/isca_work/experiment/giant_planet_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ktp9/programs/isca/exp/test_cases/giant_planet/scratch_giant_planet_test_case.py", line 225, in <module>
+    exp.run(1, use_restart=False, overwrite_data=True, num_cores=NCORES)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/home/ktp9/programs/isca/src/extra/python/isca/experiment.py", line 298, in run
+    raise FailedRunError()
+isca.experiment.FailedRunError
